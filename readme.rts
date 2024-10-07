@@ -1,0 +1,5 @@
+aws ssm put-parameter --name "/app-utility/api-key" --value "<apikey>" --type "SecureString"
+
+aws ssm put-parameter --name "/app-utility/youtube-api-key" --value "<youtubekey>" --type "SecureString"
+
+aws ssm put-parameter --name "/app-utility/aws-admin-credentials" --value file://aws-admin-credentials.json --type "SecureString"

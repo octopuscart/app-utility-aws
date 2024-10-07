@@ -1,0 +1,30 @@
+# Ignore AWS credentials files
+aws-admin-credentials.json
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform crash logs
+crash.log
+
+# Ignore Terraform variable files
+*.tfvars
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore sensitive parameter files
+*.key
+*.pem
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
